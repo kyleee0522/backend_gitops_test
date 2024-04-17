@@ -1,14 +1,14 @@
 apiVersion: v1	
 kind: Service	
 metadata:	
-  name: backend_test
+  name: backendtest
   labels:
-    app: backend_test
+    app: backendtest
 spec:	
   ports:	
   - port: 80	
     targetPort: 8081
     name: http
   selector:	
-    app: backend_test
+    app: backendtest
   type: ClusterIP
