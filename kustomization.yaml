@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: myharbor.apps.211-34-231-93.nip.io/edu/edu_baseinfo
-  newTag: "20240417092522"
+  newTag: "20240417093908"
