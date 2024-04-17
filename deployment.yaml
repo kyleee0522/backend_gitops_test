@@ -23,7 +23,7 @@ spec:
             - name: JAVA_TOOL_OPTIONS 
               value: "-Delastic.apm.server_url=http://apmedu1.apps.211-34-231-93.nip.io:8200 -Delastic.apm.server_host=apm-server.edu1.svc.cluster.local:8200  -Delastic.apm.environment=dev -Dservice_name=backend -Delastic.apm.secret_token="    ## secret_token 값은 비워둠
           ports:
-            - containerPort: 8080
+            - containerPort: 8081
       #argo에 secret를 만들어서 배포해야함
       #imagePullSecrets:
       #  - name: argo-secret
