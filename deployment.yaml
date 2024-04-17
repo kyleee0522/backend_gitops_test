@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backend_test
+  name: backendtest
 spec:
   replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: backend_test
+      app: backendtest
   template:
     metadata:
       labels:
-        app: backend_test
+        app: backendtest
     spec:
       containers:
-        - name: backend_test
+        - name: backendtest
           image: myharbor.apps.211-34-231-93.nip.io/edu/edu_baseinfo
           imagePullPolicy: Always
           env:
