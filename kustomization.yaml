@@ -4,5 +4,5 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
-- name: myharbor.apps.211-34-231-93.nip.io/edu/edu_baseinfo
-  newTag: "20240417093908"
+- name: myharbor.apps.211-34-231-93.nip.io/mvp/mvp_db_to_redis_batch
+  newTag: "20240418090922"
